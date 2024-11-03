@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="scene.SceneController">
+   <children>
+      <ImageView fitHeight="1084.0" fitWidth="1487.0" layoutX="-10.0" layoutY="-19.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@GameClear.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="486.0" layoutY="143.0" text="Game Clear" textFill="WHITE">
+         <font>
+            <Font name="Gigi" size="96.0" />
+         </font>
+      </Label>
+      <Button layoutX="574.0" layoutY="454.0" mnemonicParsing="false" onAction="#restartGame" text="Return to Start">
+         <font>
+            <Font size="32.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="0.2234848484848485" startX="0.21212121302431275" startY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9578947424888611" green="0.31575047969818115" blue="0.31575047969818115" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+   </children>
+</AnchorPane>
